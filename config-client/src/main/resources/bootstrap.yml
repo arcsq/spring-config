@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      fail-fast: true
+      retry:
+        initial-interval: 1000
+        maxInterval: 30000
+        maxAttempts: 30000
+        multiplier: 1.1
+  profiles:
+    active: prod
+server:
+  port: 8080
