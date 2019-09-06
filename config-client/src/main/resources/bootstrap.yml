@@ -11,6 +11,6 @@ spring:
         maxAttempts: 30000
         multiplier: 1.1
   profiles:
-    active: prod
+    active: dev
 server:
   port: 8080

@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/office/workspaces/poc/spring-config/config-server/config-repo
+          uri: file://${user.home}/office/workspaces/poc/config-data
           clone-on-start: true
